@@ -61,8 +61,3 @@ sns.pairplot(df_cancer, hue = 'target', vars = ['mean radius', 'mean texture', '
 
 ![](https://miro.medium.com/max/957/1*k3lpa0s58q9nayfHjsfXuA.png)
 
-sns.countplot(df_cancer['target'], label = "Count")
-
-![](https://miro.medium.com/max/30/1*FQBQGAJDq3taSIOn_p5LWA.png?q=20)
-
-![](https://miro.medium.com/max/392/1*FQBQGAJDq3taSIOn_p5LWA.png)
