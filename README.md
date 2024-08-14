@@ -55,9 +55,4 @@ cancer = load_breast_cancer()
 
 # STEP #3: VISUALIZING THE DATA
 
-sns.pairplot(df_cancer, hue = 'target', vars = ['mean radius', 'mean texture', 'mean area', 'mean perimeter', 'mean smoothness'] )
-
-![](https://miro.medium.com/max/30/1*k3lpa0s58q9nayfHjsfXuA.png?q=20)
-
-![](https://miro.medium.com/max/957/1*k3lpa0s58q9nayfHjsfXuA.png)
 
